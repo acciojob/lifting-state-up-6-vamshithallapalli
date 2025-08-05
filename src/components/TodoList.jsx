@@ -3,7 +3,7 @@ import React from "react";
 const TodoList = ({ todos, handleComplete }) => {
   return (
     <>
-      <h2>Child Component</h2>
+      <h2 style={{ marginLeft: "30px" }}>Child Component</h2>
       <ul>
         {todos.map((todo) => (
           <li key={todo.id}>
